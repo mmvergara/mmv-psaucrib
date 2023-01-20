@@ -1,0 +1,58 @@
+.psauChatContainer {
+  padding-top: 3em;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.messageAuthorImage {
+  object-fit: cover;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.messageContainer {
+  margin-inline: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  flex-wrap: nowrap;
+}
+
+.messageandpic {
+  display: flex;
+}
+.messageAuthor {
+  color: gray;
+  padding-inline: 10px;
+  padding-left: 47px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: inline;
+}
+
+.individualMessage {
+  color: white;
+  background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(0, 163, 0));
+  border-radius: 20px;
+  display: inline-flexbox;
+  padding: 10px;
+  letter-spacing: 0.6px;
+}
+
+
+.fixedNav {
+  position: fixed;
+  width: 100vw;
+}
+
+.message {
+  font-weight: 400;
+}
+.sendMessage {
+  width: 15%;
+  background-color: #ffb80e;
+}

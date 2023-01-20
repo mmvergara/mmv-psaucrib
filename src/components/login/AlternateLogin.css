@@ -1,0 +1,17 @@
+.loginMainContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top: 4rem;
+}
+
+.loginFormContainer{
+  background-color: rgba(255, 255, 255, 0.98);
+  width: 600px;
+  padding: 1em;
+  /* border-color: #ffb80e; */
+  border-color: hsl(119, 88%, 14%);
+  border-style: solid;
+  border-width: 10px;
+}

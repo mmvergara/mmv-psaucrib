@@ -1,0 +1,112 @@
+:root {
+  --navBg: #538c50;
+  --sideNavHover: #345c32;
+  --psauYello: #ffcb42;
+}
+
+.iconPic {
+  margin-top: 3px;
+  border-radius: 50%;
+}
+
+.liIcons {
+  opacity: 0;
+  color: rgb(241, 245, 220);
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 14px;
+  animation-name: fromBotton;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  margin: 0;
+}
+
+
+.liLogin {
+  color: rgb(241, 245, 220);
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  height: 100%;
+  margin-left: auto;
+}
+
+.liLogin:hover {
+  color: var(--psauYello);
+}
+
+.liAnimation {
+  animation-name: slideLeft;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.liIcons:hover {
+  color: var(--psauYello);
+  background-color: var(--sideNavHover);
+}
+
+.liIcons svg:hover {
+  color: #ffb80e;
+}
+
+.sideBarIn {
+  animation-name: sideBarVisible;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.sideBarOut {
+  animation-name: sideBarVisibleNot;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.liIcons svg {
+  color: wheat;
+  margin-left: 10px;
+}
+
+@keyframes sideBarVisible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes fromBotton {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

@@ -1,0 +1,17 @@
+.adminPanel-container {
+  margin-top: 1rem;
+  background-color: rgb(247, 237, 219);
+  margin-inline: auto;
+  max-width: 1200px;
+  border-color: #ffb80e;
+  border-style:solid;
+  border-width:10px
+}
+
+.actionSVG svg{
+  font-size: 1.5rem;
+  color: black;
+}
+.adminActionsButtonsReject {
+  margin-left: 1em;
+}

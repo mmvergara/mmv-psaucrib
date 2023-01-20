@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  width: 100%;
+  background-color: #c2dbc2;
+}
+
+
+.LoadingCrown {
+  animation-name: spinner;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  font-size: 4rem;
+  color:white;
+}
+
+@keyframes spinner {
+  0% {
+    transform:rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

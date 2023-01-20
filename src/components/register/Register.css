@@ -1,0 +1,16 @@
+
+.registerFormContainer b {
+  color:hsl(42, 100%, 33%);
+}
+.pfpUpload {
+  margin-top: 1em;
+}
+.userstudentNumInput{
+  width: 49%;
+}
+.userstudentNum {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
