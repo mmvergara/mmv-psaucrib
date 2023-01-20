@@ -1,5 +1,7 @@
 # PSAU-Crib
-Made by: Vergara, Mark matthew
-Deployment Date: Nov 13, 2022.
+- Made by: Vergara, Mark matthew
+- Deployment Date: Nov 13, 2022.
 
-# This app is unsecure    
+# Warning!!! This app is very unsecure and no firebase security rules is applied
+- https://mmv-psaucrib.netlify.app/
+- Proceed with caution
